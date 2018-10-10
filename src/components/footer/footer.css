@@ -1,0 +1,29 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  padding: 5px;
+  border-top: 1px solid #fafafa;
+  background: #fafafa;
+}
+.footer nav {
+  display: flex;
+  justify-content: space-around;
+}
+.footer nav .item {
+  color: #666;
+}
+.footer nav .item.active {
+  color: #b4282d;
+}
+.footer nav .item .iconfont {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.footer nav .item span {
+  font-size: 13px;
+  margin-left: -5px;
+}

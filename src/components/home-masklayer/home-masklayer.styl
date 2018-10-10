@@ -1,0 +1,165 @@
+.m-newWapUserGiftModal
+  position fixed
+  top 0
+  left 0
+  right 0
+  bottom 0
+  z-index 9999
+  &.fade-enter-active,&.fade-leave-active
+    transition: opacity 1s;
+
+  &.fade-enter,&.fade-leave-to
+    opacity: 0;
+
+  .mask
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+
+  .close
+    position: fixed;
+    left: 320px;
+    top: 20px;
+    z-index: 2;
+    background-image: url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/modalClose-9365f12572.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  .wrap
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 370px;
+    left: 185px;
+    z-index: 1;
+    .modle
+      width: 320px;
+      height: 350px;
+      background-color: #fff;
+      border-radius: 10px;
+      padding:20px 15px;
+      .title
+        font-size: 30px
+        text-align: center;
+        .titleContent
+          display: inline-block;
+          margin-bottom 20px
+          position: relative;
+          font-weight: 700;
+          font-size: 18px
+          text-align: center
+      .subTitle
+        font-size: 12px
+        text-align: center;
+
+      .m-newUserItem
+        margin-top: 20px
+        background-color: #f4f4f4;
+        border-radius: 10px
+        height: 150px
+        width: 100%;
+        display: flex;
+        .img
+          img
+            width: 150px
+            height: 150px
+        .content
+          flex: 1;
+          padding: 10px
+          margin-left: 0px
+          line-height: 1.5;
+          color: #333;
+          font-size: 12px
+          .itemName
+            font-size: 14px
+            width: 90%
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            line-height: 1.5;
+            color: #333;
+          .manu
+            margin-top: 5px
+            line-height: 1.5;
+            color: #333;
+            display: block;
+            font-size: 14px;
+            .manuTag
+              border: 1px solid #7f7f7f;
+              border-radius: 20px
+              padding: 0 5px
+              height: 20px
+              line-height: 20px
+              color: #333;
+          .price
+            line-height: 1.5;
+            color: #333;
+            display: block;
+            margin-top: 30px
+            font-size: 15px
+            .retailPrice
+              color: #b4282d;
+              font-size: 15px
+              line-height: 1.5;
+              span
+                float: left;
+                color: #b4282d;
+                font-size: 15px
+                line-height: 0.5;
+
+            .comparePrice
+              color: #999;
+              display: inline-block;
+              margin-left: 15px
+              text-decoration: line-through;
+              font-size: 15px
+              line-height: 1.5;
+              span
+                color: #999;
+                display: inline-block;
+                margin-left: 5px
+                text-decoration: line-through;
+                font-size: 15px
+                line-height: 1.5;
+
+
+      .actCouponBtn
+        height: 50px
+        background-color: #b4282d;
+        color: #fff;
+        font-size: 20px
+        margin-top: 10px
+        border-radius: 10px
+        text-align: center;
+        line-height: 40px
+        span
+          color: #fff;
+          font-size: 20px
+          text-align: center;
+          line-height: 20px
+          span
+            height: 20px
+            background-color: #b4282d;
+            color: #fff;
+            font-size: 15px
+            margin-top: 10px
+            border-radius: 5px
+            text-align: center;
+            line-height: 10px
+        .linkBtn
+          height: 50px
+          border: 1px solid #7F7F7F;
+          border-radius: 10px
+          text-align: center;
+          line-height: 50px
+          font-size: 15px
+          margin-top: 20px
+          display block
+          color #333

@@ -1,0 +1,77 @@
+.product {
+  position: relative;
+  width: 375px;
+}
+.product img {
+  width: 375px;
+  height: 150px;
+}
+.product .product_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -35px;
+  margin-left: -40px;
+  color: #b4a078;
+  font-size: 18px;
+}
+.product .product_title .product_button {
+  margin-top: 10px;
+}
+.product .product_title .product_button div {
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #b4a078;
+  background: #f4e9cb;
+  font-size: 13px;
+}
+.product .product_title .product_button i {
+  display: block;
+  margin-top: -25px;
+  margin-left: 67px;
+}
+.BStter .product_list {
+  width: 1300px;
+  height: 215px;
+  padding: 10px;
+  background: #fff;
+  margin-top: 10px;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.BStter .product_list .product_item {
+  width: 150px;
+  height: 150px;
+  background: #f4f4f4;
+  float: left;
+  margin: 0px 10px;
+}
+.BStter .product_list .product_item img {
+  width: 150px;
+  height: 100%;
+}
+.BStter .product_list .product_item .product_item_text {
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+}
+.BStter .product_list .product_item .product_item_text .item_text1 {
+  margin-top: 5px !important;
+  color: #333;
+  font-size: 14px;
+  line-height: 15px;
+}
+.BStter .product_list .product_item .product_item_text .item_text2 {
+  color: #7f7f7f;
+  font-size: 12px;
+  line-height: 15px;
+}
+.BStter .product_list .product_item .product_item_text .item_text3 {
+  color: #b4282d;
+  float: left;
+  margin-left: 5px;
+  margin-top: 10px;
+}

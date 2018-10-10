@@ -1,0 +1,23 @@
+.swiper-container {
+  margin-top: 75px;
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .swiper-wrapper {
+  width: 2000px !important;
+  height: 200px;
+}
+.swiper-container .swiper-wrapper .swiper-slide {
+  width: 375px;
+}
+.swiper-container .swiper-wrapper .swiper-slide a {
+  float: left;
+  display: block;
+  width: 375px;
+  height: 200px;
+}
+.swiper-container .swiper-wrapper .swiper-slide img {
+  float: left;
+  width: 375px;
+  height: 200px;
+}

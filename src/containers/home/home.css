@@ -1,0 +1,210 @@
+.div {
+  width: 100%;
+  height: 100%;
+}
+.div header {
+  position: fixed;
+  z-index: 9;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  padding: 5px 10px;
+  background: #fff;
+}
+.div header .header_input {
+  position: relative;
+}
+.div header .header_input img {
+  width: 65px;
+  height: 20px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.div header .header_input i {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  margin-right: 5px;
+}
+.div header .header_input input {
+  width: 60%;
+  height: 30px;
+  padding-left: 40px;
+  background: #ededed;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.div header ul {
+  background: #fff;
+  width: 800px;
+  margin-top: 15px;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+.div header ul li {
+  height: 20px;
+  float: left;
+  margin-right: 30px;
+}
+.div header ul li > span {
+  font-size: 15px;
+  font-weight: bold;
+}
+.div header ul li.on {
+  color: #b4282d;
+  border-bottom: 2px solid #b4282d;
+}
+.div .viewport {
+  width: 100%;
+  height: 100%;
+}
+.div .viewport .content {
+  padding-bottom: 150px;
+  width: 100%;
+}
+.div .viewport .content .straight {
+  width: 100%;
+  background: #fff;
+}
+.div .viewport .content .straight .straight_title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.div .viewport .content .straight .straight_title .straight_conent {
+  margin: 10px;
+  width: 100%;
+}
+.div .viewport .content .straight .straight_title .straight_conent span {
+  display: block;
+  line-height: 30px;
+}
+.div .viewport .content .straight .straight_title .straight_conent li {
+  margin-right: 10px;
+  margin-bottom: 70px;
+  float: left;
+  width: 46%;
+  height: 205px;
+  background: #eee;
+}
+.div .viewport .content .straight .straight_title .straight_conent li img {
+  margin-top: 20px;
+  width: 90%;
+  height: 80%;
+}
+.div .viewport .content .straight .straight_title .straight_conent li .straight_conent_info {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #9f8a60;
+  background: #f1ece2;
+  font-size: 14px;
+}
+.div .viewport .content .straight .straight_title .straight_conent li .straight_conent_text {
+  margin: 5px 0px;
+}
+.div .viewport .content .straight .straight_title .straight_conent li .straight_conent_text div {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.div .viewport .content .straight .straight_title .straight_conent li .straight_conent_text div.many {
+  margin-left: -40px;
+  color: #b4282d;
+  font-size: 14px;
+}
+.div .viewport .content .straight .straight_title .straight_conent li .grey {
+  width: 375px;
+  height: 10px;
+  margin-top: 20px;
+  background: #f3f5f7;
+}
+.div .viewport .content .security {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 30px;
+  background: #fff;
+}
+.div .viewport .content .security .security_li {
+  float: left;
+  margin-right: 25px;
+}
+.div .viewport .content .security .security_li img {
+  width: 15px;
+  height: 15px;
+}
+.div .viewport .content .security .security_li span {
+  font-size: 10px;
+}
+.div .viewport .content .straight {
+  width: 100%;
+  background: #fff;
+}
+.div .viewport .content .straight .straight_title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.div .viewport .content .straight .straight_conent {
+  margin: 10px;
+  width: 100%;
+}
+.div .viewport .content .straight .straight_conent li {
+  margin: 3px;
+  float: left;
+  width: 46.5%;
+  height: 125px;
+  background: #eee;
+}
+.div .viewport .content .straight .straight_conent li .straight_conent_text {
+  float: left;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+.div .viewport .content .straight .straight_conent li img {
+  margin-top: -30px;
+  width: 90%;
+  height: 90%;
+}
+.div .viewport .content .welfare img {
+  width: 100%;
+  height: 200px;
+}
+.div .viewport .content .foot {
+  padding: 10px;
+  width: 100%;
+  background: #000;
+}
+.div .viewport .content .foot .foot-content span {
+  color: #fff;
+  padding: 5px 5px;
+  border: 1px solid #fff;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.div .viewport .content .foot .foot-content .foot-content-text1 {
+  color: #ccc;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.div .maoD {
+  position: fixed;
+  bottom: 55px;
+  right: 10px;
+  z-index: 20;
+}
+.div .maoD div {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+}
+.div .maoD div .iconfont {
+  color: #aaa;
+  font-size: 35px;
+}
